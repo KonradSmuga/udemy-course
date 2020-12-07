@@ -1,5 +1,7 @@
-const btn = document.querySelector("button");
+
 let number = 1;
+const btn = document.querySelector("button");
+
 btn.addEventListener("click", function () {
   // console.log("klik!");
   const createDiv = document.createElement('div');
